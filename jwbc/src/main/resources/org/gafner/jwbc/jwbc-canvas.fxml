@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane fx:id="stackPane" maxHeight="600.0" maxWidth="600.0" minHeight="500.0" minWidth="500.0" style="-fx-border-color: black; -fx-border-width: 2px; -fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gafner.jwbc.CanvasController">
+    <children>
+        <Canvas fx:id="canvas" height="500.0" onMouseDragged="#mouseDragged" onMouseEntered="#mouseEntered" onMouseExited="#onMouseExited" onMousePressed="#mousePressed" onMouseReleased="#mouseReleased" width="500.0">
+        </Canvas>
+    </children>
+</StackPane>

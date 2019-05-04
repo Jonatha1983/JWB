@@ -1,0 +1,131 @@
+* {
+    dark-primary-color: #388E3C;
+    default-primary-color: #4CAF50;
+    secondary-default-primary-color: #4CAF01;
+    light-primary-color: #C8E6C9;
+    text-primary-color: #FFFFFF;
+    accent-color: #ee12ee;
+    primary-text-color: #212121;
+    secondary-text-color: #757575;
+    divider-color: #BDBDBD;
+}
+
+.root {
+    -fx-background-color: white;
+}
+
+#tree {
+    -fx-background-color: light-primary-color;
+}
+
+#tool {
+    -fx-background-color: divider-color;
+}
+
+.toggle-button {
+    -fx-background-color: white, black, white;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 80%;
+    -fx-padding: 5;
+    -fx-background-position: center;
+
+}
+
+.toggle-button:selected {
+    -fx-background-color: #b6b6b6, #e6e6e6,#B6B6B6;
+    -fx-background-size: 80%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-padding: 5;
+}
+
+.button {
+    -fx-background-color: white, black, white;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 80%;
+    -fx-padding: 5;
+    -fx-background-position: center;
+
+}
+
+.button:selected {
+    -fx-background-color: #b6b6b6, #e6e6e6,#B6B6B6;
+    -fx-background-size: 80%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-padding: 5;
+}
+
+.combo-box {
+    -fx-background-color: white, black, white;
+    -fx-background-insets: 0, 1, 2;
+    -fx-color-label-visible: false
+}
+
+.color-picker {
+    -fx-background-color: white, black, white;
+    -fx-background-insets: 0, 1, 2;
+    -fx-color-label-visible: false
+}
+
+#editButton {
+    -fx-background-image: url('images/edit.png');
+
+}
+
+#eraserButton {
+    -fx-background-image: url('images/eraser.png');
+    -fx-background-size: 65%;
+
+}
+
+#lineButton {
+    -fx-background-image: url('images/line.png');
+    -fx-background-size: 65%;
+}
+
+#rectangleButton{
+    -fx-background-image: url('images/rectangle.png');
+    -fx-background-size: 65%;
+}
+
+#circle{
+    -fx-background-image: url('images/ciircle.png');
+    -fx-background-size: 50%;
+}
+
+#canvasHolder {
+    -fx-border-color: white;
+}
+
+#canvas {
+    -fx-background-color: #ffffff;
+}
+
+#save{
+    -fx-background-image: url('images/save.png');
+    -fx-background-size: 75%;
+}
+
+#undo{
+    -fx-background-image: url('images/undo.png');
+    -fx-background-size: 50%;
+}
+#redo{
+    -fx-background-image: url('images/redo.jpg');
+    -fx-background-size: 50%;
+}
+#zoomIn{
+    -fx-background-image: url('images/zoomIn.png');
+    -fx-background-size: 50%;
+}
+#zoomOut{
+    -fx-background-image: url('images/zoomOut.png');
+    -fx-background-size: 60%;
+}
+
+.button:pressed{
+    -fx-background-color: #b6b6b6, #e6e6e6,#B6B6B6;
+}

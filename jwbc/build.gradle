@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.7'
+    id 'idea'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+
+javafx {
+    version = "11.0.2"
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.base', 'javafx.graphics']
+}
+
+application {
+    mainClassName = "org.gafner.jwbc.MainApp"
+}
+
+dependencies {
+
+    //Other dependencies here
+
+    // https://mvnrepository.com/artifact/com.jfoenix/jfoenix
+    implementation group: 'com.jfoenix', name: 'jfoenix', version: '9.0.8'
+    implementation "org.jetbrains:annotations:16.0.2"
+}
+
+
+
+
+
