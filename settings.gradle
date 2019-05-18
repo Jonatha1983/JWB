@@ -1,4 +1,5 @@
 rootProject.name = 'jwb'
 
-
+include "jwb-api"
 include "jwbc"
+include "jwbs"

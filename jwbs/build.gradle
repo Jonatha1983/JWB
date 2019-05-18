@@ -1,38 +1,25 @@
 plugins {
-    id 'application'
-    id 'org.openjfx.javafxplugin' version '0.0.7'
+    id 'java'
     id 'idea'
     id 'org.springframework.boot' version '2.0.5.RELEASE'
     id 'io.spring.dependency-management' version '1.0.7.RELEASE'
 }
-
 
 repositories {
     mavenCentral()
 }
 
 
-javafx {
-    version = "11.0.2"
-    modules = ['javafx.controls', 'javafx.fxml', 'javafx.base', 'javafx.graphics']
-}
-
-application {
-    mainClassName = "org.gafner.jwbc.MainApp"
-}
-
 dependencies {
-
     implementation platform('org.springframework.boot:spring-boot-dependencies:2.0.5.RELEASE')
     implementation ('org.springframework.boot:spring-boot-starter-web') {
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
 
     }
 
-    // https://mvnrepository.com/artifact/com.jfoenix/jfoenix
-    implementation group: 'com.jfoenix', name: 'jfoenix', version: '9.0.8'
-    implementation "org.jetbrains:annotations:16.0.2"
     implementation project(":jwb-api")
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     components {
         withModule('org.springframework:spring-beans') {
@@ -44,10 +31,10 @@ dependencies {
             }
         }
     }
-
 }
 
 
-
-
+bootJar{
+    mainClassName = "hello.App"
+}
 

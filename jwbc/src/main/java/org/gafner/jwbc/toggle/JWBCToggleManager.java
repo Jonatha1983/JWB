@@ -18,14 +18,15 @@ public class JWBCToggleManager {
     private final Set<JWBCToggleI> toggleButtons;
     private Canvas canvas;
 
-    public JWBCToggleManager(Canvas canvas, ToggleButton editButton, ToggleButton eraseButton, ToggleButton rectangleButton, ToggleButton lineButton, ToggleButton circleButton, ComboBox<Integer> comboBoxLineThickens, ColorPicker colorPicker, ColorPicker colorPickerFill) {
+    public JWBCToggleManager(Canvas canvas, ToggleButton editButton, ToggleButton eraseButton, ToggleButton rectangleButton, ToggleButton textButton, ToggleButton lineButton, ToggleButton circleButton, ComboBox<Integer> comboBoxLineThickens, ColorPicker colorPicker, ColorPicker colorPickerFill) {
         this.canvas = canvas;
         JWBCToggleI toggleIEdit = new JWBCEdit(canvas, editButton, colorPicker, colorPickerFill, comboBoxLineThickens);
         JWBCToggleI toggleIErase = new JWBCEraser(canvas, eraseButton, colorPicker, colorPickerFill, comboBoxLineThickens);
         JWBCToggleI toggleIRectangle = new JWBCRectangle(canvas, rectangleButton, colorPicker, colorPickerFill, comboBoxLineThickens);
+        JWBCToggleI toggleIText = new JWBText(canvas, textButton, colorPicker, colorPickerFill, comboBoxLineThickens);
         JWBCToggleI toggleILine = new JWBCLine(canvas, lineButton, colorPicker, colorPickerFill, comboBoxLineThickens);
         JWBCToggleI toggleICircle = new JWBCOval(canvas, circleButton, colorPicker, colorPickerFill, comboBoxLineThickens);
-        toggleButtons = Set.of(toggleIEdit, toggleIErase, toggleIRectangle, toggleILine, toggleICircle);
+        toggleButtons = Set.of(toggleIEdit, toggleIErase,toggleIText, toggleIRectangle,toggleILine, toggleICircle);
     }
 
     public void withCanvasPressedDo(StackPane stackPane, MouseEvent e) {

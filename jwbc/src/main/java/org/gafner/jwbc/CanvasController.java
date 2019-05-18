@@ -5,11 +5,14 @@ import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
+import javafx.stage.FileChooser;
 import org.gafner.jwbc.paint_operation.DrawOperation;
 import org.gafner.jwbc.paint_operation.JWBDraw;
 import org.gafner.jwbc.toggle.JWBCToggleManager;
 
+import java.io.File;
 import java.net.URL;
+import java.nio.file.Path;
 import java.util.ResourceBundle;
 
 
@@ -24,6 +27,8 @@ public class CanvasController implements Initializable {
     private JWBCToggleManager toggleManager;
     private boolean saved;
     private JWBDraw jwbDraw;
+    private Path thisFile;
+    private JWBCController parentController;
 
 
     @Override
@@ -68,7 +73,17 @@ public class CanvasController implements Initializable {
     }
 
     public void save() {
-        saved = true;
+        if (thisFile == null) {
+            thisFile = getSaveFile();
+        }
+
+    }
+
+    private Path getSaveFile() {
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Save As..");
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Paint File(.PNT)", "*.pnt"));
+        return fileChooser.showSaveDialog(parentController.getPrimaryStage()).toPath();
     }
 
     public void undo() {
@@ -80,10 +95,12 @@ public class CanvasController implements Initializable {
     }
 
     public void connectToPrimaryController(JWBCController jwbcController) {
+        this.parentController = jwbcController;
         this.toggleManager = new JWBCToggleManager(canvas,
                 jwbcController.getEditButton(),
                 jwbcController.getEraseButton(),
                 jwbcController.getRectangleButton(),
+                jwbcController.getTextButton(),
                 jwbcController.getLineButton(),
                 jwbcController.getCircleButton(),
                 jwbcController.getComboBoxLineThickens(),

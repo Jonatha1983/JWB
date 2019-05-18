@@ -45,10 +45,14 @@ public class JWBCController implements Initializable {
     public ToggleButton circleButton;
 
     @FXML
+    private ToggleButton textButton;
+
+    @FXML
     public StackPane canvasContainer;
 
 
     private CanvasController canvasController;
+
 
 
     void setStageAndSetupListeners(Stage stage) {
@@ -199,4 +203,11 @@ public class JWBCController implements Initializable {
         // TODO: 2019-04-26 Implement
     }
 
+    public ToggleButton getTextButton() {
+        return textButton;
+    }
+
+    public Stage getPrimaryStage() {
+        return primaryStage;
+    }
 }

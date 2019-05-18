@@ -9,7 +9,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/jwb-api" />
             <option value="$PROJECT_DIR$/jwbc" />
+            <option value="$PROJECT_DIR$/jwbs" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

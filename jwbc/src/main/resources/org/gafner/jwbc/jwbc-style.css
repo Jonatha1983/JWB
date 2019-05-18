@@ -80,6 +80,10 @@
     -fx-background-size: 65%;
 
 }
+#textButton{
+    -fx-background-image: url('images/text.png');
+    -fx-background-size: 65%;
+}
 
 #lineButton {
     -fx-background-image: url('images/line.png');
