@@ -7,7 +7,7 @@ plugins{
 dependencies{
     implementation "org.jetbrains:annotations:16.0.2"
     implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
-
+    
 }
 
 repositories {
