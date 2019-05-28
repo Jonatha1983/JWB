@@ -5,104 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142bb36b-4e0f-428d-ab2b-d9f3df152ffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/CanvasListenerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/dao/UserRepositoryAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/model/GroupAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/model/UserAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/service/group/GroupConnectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/service/users/UserConnectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/client.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/JWBApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/CanvasController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/ClientListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/FXMLViews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBCController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/conversation/GroupConversation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/ColorCombineSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/DrawOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/EditOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/JWBDraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/LineOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/OvalDrawOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/RectangleDrawOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/utils/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/utils/PairUserMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/AppJavaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/SpringFXMLLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/StageManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/home.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/owb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/registration.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/registration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/server.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/ServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/dao/ServerGroupBoardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/model/GroupBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/services/groups/GroupConnectionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/services/users/UserConnectionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/resources/bundle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwb-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jwbapi/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwb-api/src/main/java/exceptions/JWBLoginException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/JWBLoginServiceI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/JWBUserData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/CanvasController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/JWBCController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/MainApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/TestRMIInitial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/DrawOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/EditOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/JWBDraw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/LineOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/OvalDrawOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/RectangleDrawOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCEdit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCEraser.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCEraser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCOval.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCOval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleI.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleIAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleIAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/utils/Pair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/Campaign_Summary_Taboola_Account_-_jgafner@gmail.com_04-28-2019_05-04-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/ciircle.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/ciircle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/eraser.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/eraser.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/eraser_cursor.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/eraser_cursor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/file.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/file.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/folder.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/folder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/pen_no_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/pen_no_selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/pencil_no_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/pencil_no_selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/rectangle.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/rectangle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/redo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/redo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/redo.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/redo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/save.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/save.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/text.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/text.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/undo.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/undo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/zoomIn.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/zoomIn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/zoomOut.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/zoomOut.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc-canvas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-canvas.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/palette.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbs/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbs/src/main/java/hello/JWBLoginServerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwbs/src/main/java/hello/JWBServerMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -291,13 +195,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jwbserver/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="53" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="53" />
+            <state relative-caret-position="45">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jwbserver/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-413" />
@@ -322,15 +235,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBCController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -412,7 +316,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/dao/ServerGroupBoardRepository.java" />
         <option value="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/ServerApplication.java" />
         <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/service/ClientFileManager.java" />
         <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/CanvasListener.java" />
@@ -463,6 +366,7 @@
         <option value="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/services/users/UserConnectionServiceImpl.java" />
         <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/CanvasController.java" />
         <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/HomeController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -946,7 +850,7 @@
       <workItem from="1558686143702" duration="27905000" />
       <workItem from="1558762869185" duration="36319000" />
       <workItem from="1558963388895" duration="10296000" />
-      <workItem from="1558976762716" duration="12545000" />
+      <workItem from="1558976762716" duration="13170000" />
     </task>
     <servers />
   </component>
@@ -959,7 +863,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316416000" />
+    <option name="totallyTimeSpent" value="317041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -991,7 +895,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32952926" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891067" weight="0.30242512" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891067" visible="true" weight="0.6547789" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50147784" side_tool="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.2767475" />
@@ -1161,16 +1065,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/CanvasListenerInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/11.0.2/2b7bb98d32266093bd49acd8778bedb55a326c20/javafx-fxml-11.0.2-sources.jar!/javafx/fxml/Initializable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -1581,16 +1475,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwbserver/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jwbserver/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-413" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbserver/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
       </provider>
     </entry>
   </component>
