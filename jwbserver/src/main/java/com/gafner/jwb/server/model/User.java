@@ -3,16 +3,14 @@ package com.gafner.jwb.server.model;
 import com.gafner.jwb.api.model.UserAPI;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import org.springframework.stereotype.Service;
 
 import javax.persistence.*;
-import java.io.Serializable;
 
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "User")
-public class User implements UserAPI, Serializable {
+public class User implements UserAPI {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

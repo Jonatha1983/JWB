@@ -1,4 +1,4 @@
-package com.gafner.jwb.api;
+package com.gafner.jwb.client;
 
 import com.gafner.jwb.api.service.users.UserConnectionService;
 import com.gafner.jwb.config.StageManager;

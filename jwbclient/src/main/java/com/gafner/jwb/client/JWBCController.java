@@ -1,4 +1,4 @@
-package com.gafner.jwb.api;
+package com.gafner.jwb.client;
 
 import com.gafner.jwb.config.StageManager;
 import javafx.event.ActionEvent;

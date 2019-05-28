@@ -1,14 +1,12 @@
 package com.gafner.jwb;
 
-import com.gafner.jwb.api.FXMLViews;
-import com.gafner.jwb.api.model.UserAPI;
+import com.gafner.jwb.client.FXMLViews;
 import com.gafner.jwb.api.service.group.GroupConnectionService;
 import com.gafner.jwb.api.service.users.UserConnectionService;
 import com.gafner.jwb.config.StageManager;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.stage.Stage;
-import org.springframework.beans.factory.config.BeanDefinitionCustomizer;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ApplicationContextInitializer;

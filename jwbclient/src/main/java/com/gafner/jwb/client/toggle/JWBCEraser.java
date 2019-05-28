@@ -1,9 +1,8 @@
-package com.gafner.jwb.api.toggle;
+package com.gafner.jwb.client.toggle;
 
-
-import com.gafner.jwb.api.paint_operation.DrawOperation;
-import com.gafner.jwb.api.paint_operation.EditOperation;
-import com.gafner.jwb.api.utils.Pair;
+import com.gafner.jwb.client.paint_operation.DrawOperation;
+import com.gafner.jwb.client.paint_operation.EditOperation;
+import com.gafner.jwb.client.utils.Pair;
 import javafx.scene.Cursor;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.control.ColorPicker;

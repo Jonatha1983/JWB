@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" stylesheets="@owb.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gafner.jwb.api.HomeController">
+<HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" stylesheets="@owb.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gafner.jwb.client.HomeController">
    <children>
       <VBox alignment="CENTER" prefHeight="550.0" prefWidth="300.0" style="-fx-background-color: #0F1F20;" HBox.hgrow="ALWAYS">
          <HBox.margin>
@@ -41,7 +41,7 @@
             </PasswordField>
             <HBox alignment="CENTER_LEFT" maxWidth="-Infinity" prefWidth="200.0">
                <children>
-                  <Button fx:id="login" mnemonicParsing="false" onAction="#login" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: white; -fx-background-radius: 1px; -fx-text-fill: #4fb053;" text="login">
+                  <Button fx:id="login" mnemonicParsing="false" onAction="#login" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: white; -fx-background-radius: 1px; -fx-text-fill: #4fb053;" text="Login">
                      <HBox.margin>
                         <Insets top="8.0" />
                      </HBox.margin></Button>
@@ -60,7 +60,7 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
          <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-size: 24px;" text="Signup JWB" textOrigin="CENTER" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-size: 24px;" text="Sign up JWB" textOrigin="CENTER" />
             <TextField fx:id="firstName" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="200.0" promptText="firstName" style="-fx-background-color: white; -fx-background-radius: 1px;">
                <VBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
@@ -88,7 +88,7 @@
             </PasswordField>
             <HBox alignment="CENTER_RIGHT" maxWidth="-Infinity" prefWidth="200.0">
                <children>
-                  <Button fx:id="signUp" mnemonicParsing="false" onAction="#signUp" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: white; -fx-background-radius: 1px; -fx-text-fill: #4fb053;" text="signup" />
+                  <Button fx:id="signUp" mnemonicParsing="false" onAction="#signUp" prefHeight="30.0" prefWidth="65.0" style="-fx-background-color: white; -fx-background-radius: 1px; -fx-text-fill: #4fb053;" text="Sign up" />
                </children>
                <VBox.margin>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="12.0" />

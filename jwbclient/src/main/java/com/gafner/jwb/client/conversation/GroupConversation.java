@@ -1,6 +1,6 @@
-package com.gafner.jwb.api.conversation;
+package com.gafner.jwb.client.conversation;
 
-import com.gafner.jwb.api.utils.PairUserMessage;
+import com.gafner.jwb.client.utils.PairUserMessage;
 
 import java.util.ArrayList;
 import java.util.List;

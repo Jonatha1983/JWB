@@ -1,6 +1,5 @@
-package com.gafner.jwb.api.paint_operation;
+package com.gafner.jwb.client.paint_operation;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -11,7 +10,7 @@ import java.io.Serializable;
 
 
 @SuppressWarnings("unused")
-public class RectangleDrawOperation implements DrawOperation, Serializable {
+public class OvalDrawOperation implements DrawOperation, Serializable {
 
     private final double startXCorner;
     private final double startYCorner;
@@ -26,14 +25,13 @@ public class RectangleDrawOperation implements DrawOperation, Serializable {
     private final Integer thickensLine;
 
 
-    @JsonCreator
-    public RectangleDrawOperation(@JsonProperty("startXCorner") double startXCorner,
-                                  @JsonProperty("startYCorner") double startYCorner,
-                                  @JsonProperty("currentW") double currentW,
-                                  @JsonProperty("currentH") double currentH,
-                                  @JsonProperty("stroke") Color stroke,
-                                  @JsonProperty("fill") Color fill,
-                                  @JsonProperty("thickensLine") Integer thickensLine) {
+    public OvalDrawOperation(@JsonProperty("startXCorner") double startXCorner,
+                             @JsonProperty("startYCorner") double startYCorner,
+                             @JsonProperty("currentW") double currentW,
+                             @JsonProperty("currentH") double currentH,
+                             @JsonProperty("stroke") Color stroke,
+                             @JsonProperty("fill") Color fill,
+                             @JsonProperty("thickensLine") Integer thickensLine) {
         this.startXCorner = startXCorner;
         this.startYCorner = startYCorner;
         this.currentW = currentW;
@@ -77,7 +75,7 @@ public class RectangleDrawOperation implements DrawOperation, Serializable {
         gc.setStroke(stroke);
         gc.setFill(fill);
         gc.setLineWidth(thickensLine);
-        gc.fillRect(startXCorner, startYCorner, currentW, currentH);
-        gc.strokeRect(startXCorner, startYCorner, currentW, currentH);
+        gc.fillOval(startXCorner, startYCorner, currentW, currentH);
+        gc.strokeOval(startXCorner, startYCorner, currentW, currentH);
     }
 }

@@ -1,8 +1,6 @@
 package com.gafner.jwb.config;
 
-import com.gafner.jwb.api.CanvasController;
-import com.gafner.jwb.api.FXMLViews;
-import com.gafner.jwb.api.CanvasListenerInterface;
+import com.gafner.jwb.client.FXMLViews;
 import javafx.application.Platform;
 import javafx.scene.Parent;
 import javafx.scene.Scene;

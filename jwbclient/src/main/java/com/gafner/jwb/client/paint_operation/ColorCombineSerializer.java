@@ -1,4 +1,4 @@
-package com.gafner.jwb.api.paint_operation;
+package com.gafner.jwb.client.paint_operation;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonParser;

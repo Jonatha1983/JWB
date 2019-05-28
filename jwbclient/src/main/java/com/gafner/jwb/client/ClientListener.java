@@ -1,5 +1,6 @@
-package com.gafner.jwb.api;
+package com.gafner.jwb.client;
 
+import com.gafner.jwb.api.CanvasListenerInterface;
 import org.springframework.stereotype.Component;
 
 import java.rmi.RemoteException;

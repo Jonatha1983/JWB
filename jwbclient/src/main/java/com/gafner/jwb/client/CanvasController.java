@@ -1,15 +1,15 @@
-package com.gafner.jwb.api;
+package com.gafner.jwb.client;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.InjectableValues;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gafner.jwb.api.conversation.GroupConversation;
-import com.gafner.jwb.api.paint_operation.DrawOperation;
-import com.gafner.jwb.api.paint_operation.JWBDraw;
+import com.gafner.jwb.client.conversation.GroupConversation;
+import com.gafner.jwb.client.paint_operation.DrawOperation;
+import com.gafner.jwb.client.paint_operation.JWBDraw;
 import com.gafner.jwb.api.service.group.GroupConnectionService;
 import com.gafner.jwb.api.service.users.UserConnectionService;
-import com.gafner.jwb.api.toggle.JWBCToggleManager;
-import com.gafner.jwb.api.utils.PairUserMessage;
+import com.gafner.jwb.client.toggle.JWBCToggleManager;
+import com.gafner.jwb.client.utils.PairUserMessage;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -22,7 +22,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.StackPane;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;

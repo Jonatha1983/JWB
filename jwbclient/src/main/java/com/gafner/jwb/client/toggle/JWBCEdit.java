@@ -1,8 +1,8 @@
-package com.gafner.jwb.api.toggle;
+package com.gafner.jwb.client.toggle;
 
-import com.gafner.jwb.api.paint_operation.DrawOperation;
-import com.gafner.jwb.api.paint_operation.EditOperation;
-import com.gafner.jwb.api.utils.Pair;
+import com.gafner.jwb.client.paint_operation.DrawOperation;
+import com.gafner.jwb.client.paint_operation.EditOperation;
+import com.gafner.jwb.client.utils.Pair;
 import javafx.scene.Cursor;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.control.ColorPicker;
@@ -19,8 +19,6 @@ public class JWBCEdit extends JWBCToggleIAbstract {
 
     JWBCEdit(Canvas canvas, ToggleButton editButton, ColorPicker colorPicker, ColorPicker colorPickerFill, ComboBox<Integer> comboBoxLineThickens) {
         super(canvas, editButton, colorPicker, colorPickerFill, comboBoxLineThickens);
-
-
     }
 
     @Override
@@ -38,7 +36,6 @@ public class JWBCEdit extends JWBCToggleIAbstract {
         graphicsContext.moveTo(x, y);
         graphicsContext.stroke();
         points.add(Pair.create(x, y));
-
     }
 
     @Override
@@ -57,6 +54,4 @@ public class JWBCEdit extends JWBCToggleIAbstract {
         stackPane.getChildren().remove(stackPane.getChildren().size() - 1);
         return new EditOperation(points,colorPicker.getValue(),comboBoxLineThickens.getValue());
     }
-
-
 }

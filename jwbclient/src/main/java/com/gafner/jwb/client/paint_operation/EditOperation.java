@@ -1,9 +1,9 @@
-package com.gafner.jwb.api.paint_operation;
+package com.gafner.jwb.client.paint_operation;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.gafner.jwb.api.utils.Pair;
+import com.gafner.jwb.client.utils.Pair;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 

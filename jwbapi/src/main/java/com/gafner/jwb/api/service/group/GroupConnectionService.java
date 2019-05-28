@@ -5,7 +5,6 @@ import com.gafner.jwb.api.CanvasListenerInterface;
 
 import com.gafner.jwb.api.model.GroupAPI;
 
-import java.rmi.RemoteException;
 import java.util.List;
 
 public interface GroupConnectionService<T extends GroupAPI> {

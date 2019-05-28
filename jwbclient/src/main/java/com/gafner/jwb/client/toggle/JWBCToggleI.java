@@ -1,6 +1,6 @@
-package com.gafner.jwb.api.toggle;
+package com.gafner.jwb.client.toggle;
 
-import com.gafner.jwb.api.paint_operation.DrawOperation;
+import com.gafner.jwb.client.paint_operation.DrawOperation;
 import javafx.scene.Cursor;
 import javafx.scene.layout.StackPane;
 

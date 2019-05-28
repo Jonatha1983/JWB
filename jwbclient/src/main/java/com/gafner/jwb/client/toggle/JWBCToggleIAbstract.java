@@ -1,4 +1,4 @@
-package com.gafner.jwb.api.toggle;
+package com.gafner.jwb.client.toggle;
 
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;

@@ -1,4 +1,4 @@
-package com.gafner.jwb.api.paint_operation;
+package com.gafner.jwb.client.paint_operation;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;

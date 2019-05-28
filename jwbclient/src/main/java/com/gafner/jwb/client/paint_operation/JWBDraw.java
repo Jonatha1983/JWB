@@ -1,7 +1,6 @@
-package com.gafner.jwb.api.paint_operation;
+package com.gafner.jwb.client.paint_operation;
 
 import com.fasterxml.jackson.annotation.JacksonInject;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import org.jetbrains.annotations.NotNull;

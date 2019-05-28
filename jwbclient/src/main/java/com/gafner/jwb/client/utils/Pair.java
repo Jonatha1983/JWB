@@ -1,4 +1,4 @@
-package com.gafner.jwb.api.utils;
+package com.gafner.jwb.client.utils;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

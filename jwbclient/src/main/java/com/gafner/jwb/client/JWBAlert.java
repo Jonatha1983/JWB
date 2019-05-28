@@ -1,4 +1,4 @@
-package com.gafner.jwb.api;
+package com.gafner.jwb.client;
 
 import javafx.scene.control.Alert;
 import javafx.scene.control.DialogPane;

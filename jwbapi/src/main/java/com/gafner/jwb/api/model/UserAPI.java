@@ -1,6 +1,8 @@
 package com.gafner.jwb.api.model;
 
-public interface UserAPI {
+import java.io.Serializable;
+
+public interface UserAPI extends Serializable {
     void setFirstName(String firstName);
 
     void setLastName(String lastName);
