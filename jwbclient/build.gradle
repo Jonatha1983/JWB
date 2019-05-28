@@ -1,0 +1,59 @@
+plugins {
+    id 'application'
+    id 'idea'
+    id 'org.springframework.boot' version '2.1.4.RELEASE'
+    id 'org.openjfx.javafxplugin' version '0.0.7'
+    id 'io.spring.dependency-management' version '1.0.7.RELEASE'
+
+}
+
+
+group = 'com.gafner'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = JavaVersion.VERSION_11
+
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "11.0.2"
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.base', 'javafx.graphics']
+}
+
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation "org.jetbrains:annotations:16.0.2"
+    implementation project(":jwbapi")
+
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
+
+}
+
+def clientClassesUrl = file("${project.sourceSets.main.java.outputDir}").toPath().toUri().toURL()
+def codeBase = "-Djava.rmi.server.codebase=${clientClassesUrl}"
+def codeBaseOnly = "-Djava.rmi.server.useCodebaseOnly=false"
+def securityPolicy = "-Djava.security.policy=client.policy"
+
+def portNumber = "-Dserver.port=${new ServerSocket(0).getLocalPort()}"
+
+tasks.startScripts.enabled = false
+
+run {
+    doFirst {
+        println "${commandLine}"
+    }
+}
+
+application {
+    applicationDefaultJvmArgs = ["${codeBase}", "${securityPolicy}", "${codeBaseOnly}","${portNumber}"]
+    mainClassName = "com.gafner.jwb.JWBApplication"
+}

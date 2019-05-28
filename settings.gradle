@@ -1,5 +1,11 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
 rootProject.name = 'jwb'
 
-include "jwb-api"
-include "jwbc"
-include "jwbs"
+include "jwbapi"
+include "jwbclient"
+include "jwbserver"

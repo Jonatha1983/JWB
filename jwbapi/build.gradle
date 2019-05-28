@@ -1,0 +1,28 @@
+plugins{
+    id 'java'
+    id 'idea'
+    id 'org.openjfx.javafxplugin' version '0.0.7'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+group = 'com.gafner'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = JavaVersion.VERSION_11
+
+
+dependencies{
+    implementation "org.jetbrains:annotations:16.0.2"
+
+}
+
+
+javafx {
+    version = "11.0.2"
+    modules = ['javafx.graphics']
+}
+
+

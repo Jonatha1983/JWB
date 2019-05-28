@@ -1,0 +1,64 @@
+plugins {
+    id 'application'
+    id 'idea'
+    id 'org.openjfx.javafxplugin' version '0.0.7'
+    id 'org.springframework.boot' version '2.1.4.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.7.RELEASE'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group = 'com.gafner'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = JavaVersion.VERSION_11
+
+javafx {
+    version = "11.0.2"
+    modules = ['javafx.graphics']
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation ('org.springframework.boot:spring-boot-starter-webflux'){
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+
+    }
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
+    runtimeOnly "mysql:mysql-connector-java:+"
+    implementation project(":jwbapi")
+
+    implementation "org.jetbrains:annotations:16.0.2"
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+}
+
+
+def serverClassesUrl = file("${project(':jwbapi').libsDir}").toPath().resolve("${project(':jwbapi').getName()}-${version}.jar").toUri().toURL()
+def codeBase = "-Djava.rmi.server.codebase=${serverClassesUrl}"
+def codeBaseOnly = "-Djava.rmi.server.useCodebaseOnly=false"
+def securityPolicy = "-Djava.security.policy=server.policy"
+
+applicationDefaultJvmArgs = ["${codeBase}", "${securityPolicy}", "${codeBaseOnly}"]
+
+tasks.startScripts.enabled = false
+
+
+run{
+    doFirst {
+        println "${commandLine}"
+    }
+}
+application {
+    applicationDefaultJvmArgs = ["${codeBase}", "${securityPolicy}", "${codeBaseOnly}"]
+    mainClassName = "com.gafner.jwb.server.ServerApplication"
+}
+
+

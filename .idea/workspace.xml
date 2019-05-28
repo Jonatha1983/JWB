@@ -1,9 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCOval.java" line="69" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="142bb36b-4e0f-428d-ab2b-d9f3df152ffa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/CanvasListenerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/dao/UserRepositoryAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/model/GroupAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/model/UserAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/service/group/GroupConnectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/service/users/UserConnectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/client.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/JWBApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/CanvasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/ClientListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/FXMLViews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBCController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/conversation/GroupConversation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/ColorCombineSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/DrawOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/EditOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/JWBDraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/LineOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/OvalDrawOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/RectangleDrawOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/utils/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/utils/PairUserMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/AppJavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/SpringFXMLLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/StageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/owb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/registration.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/registration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/server.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/dao/ServerGroupBoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/model/GroupBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/services/groups/GroupConnectionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/services/users/UserConnectionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwbserver/src/main/resources/bundle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwb-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jwb-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwb-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jwbapi/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwb-api/src/main/java/exceptions/JWBLoginException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/JWBLoginServiceI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/JWBUserData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/CanvasController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/JWBCController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/TestRMIInitial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/DrawOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/EditOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/JWBDraw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/LineOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/OvalDrawOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/RectangleDrawOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCEdit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCEraser.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCEraser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCOval.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCOval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleI.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleIAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleIAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/utils/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/Campaign_Summary_Taboola_Account_-_jgafner@gmail.com_04-28-2019_05-04-2019.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/ciircle.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/ciircle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/edit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/eraser.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/eraser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/eraser_cursor.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/eraser_cursor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/file.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/file.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/folder.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/folder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/pen_no_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/pen_no_selected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/pencil_no_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/pencil_no_selected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/rectangle.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/rectangle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/redo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/redo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/redo.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/redo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/save.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/text.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/text.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/undo.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/undo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/zoomIn.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/zoomIn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/images/zoomOut.png" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/images/zoomOut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc-canvas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-canvas.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/palette.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbs/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbs/src/main/java/hello/JWBLoginServerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwbs/src/main/java/hello/JWBServerMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -16,6 +115,12 @@
     <ignored path="$PROJECT_DIR$/jwbs/build/" />
     <ignored path="$PROJECT_DIR$/jwb-api/.gradle/" />
     <ignored path="$PROJECT_DIR$/jwb-api/build/" />
+    <ignored path="$PROJECT_DIR$/jwbapi/.gradle/" />
+    <ignored path="$PROJECT_DIR$/jwbapi/build/" />
+    <ignored path="$PROJECT_DIR$/jwbclient/.gradle/" />
+    <ignored path="$PROJECT_DIR$/jwbclient/build/" />
+    <ignored path="$PROJECT_DIR$/jwbserver/.gradle/" />
+    <ignored path="$PROJECT_DIR$/jwbserver/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +166,15 @@
         <task path="$PROJECT_DIR$/jwbs">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/jwbserver">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/jwbapi">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/jwbclient">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -71,34 +185,45 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jwb" type="f1a62948:ProjectNode" />
-                <item name="jwbs" type="2d1252cf:ModuleNode" />
+                <item name="jwbclient" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jwb" type="f1a62948:ProjectNode" />
-                <item name="jwbs" type="2d1252cf:ModuleNode" />
+                <item name="jwbclient" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jwb" type="f1a62948:ProjectNode" />
-                <item name="jwbs" type="2d1252cf:ModuleNode" />
+                <item name="jwbclient" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jwb" type="f1a62948:ProjectNode" />
-                <item name="jwbs" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="help" type="c8890929:TasksNode$1" />
+                <item name="jwbserver" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jwb" type="f1a62948:ProjectNode" />
-                <item name="jwbs" type="2d1252cf:ModuleNode" />
+                <item name="jwbserver" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jwb" type="f1a62948:ProjectNode" />
+                <item name="jwbserver" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jwb" type="f1a62948:ProjectNode" />
+                <item name="jwbserver" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -110,64 +235,111 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/JWBCController.java">
+        <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/CanvasController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="201" column="19" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="19" />
+            <state relative-caret-position="183">
+              <caret line="133" column="82" lean-forward="true" selection-start-line="133" selection-start-column="82" selection-end-line="133" selection-end-column="82" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#initComboLineWidth#0;class#JWBCController#0" />
-                <element signature="method#zoomIn#0;class#JWBCController#0" />
-                <element signature="method#zoomOut#0;class#JWBCController#0" />
+                <element signature="method#redo#0;class#CanvasController#0" />
+                <element signature="method#joinGroup#0;class#CanvasController#0" />
+                <element signature="method#loadFromDB#0;class#CanvasController#0" />
+                <element signature="method#loadConversationFromDB#0;class#CanvasController#0" />
+                <element signature="method#loadPaintFromDB#0;class#CanvasController#0" />
+                <element signature="e#8136#8137#0" expanded="true" />
+                <element signature="e#8169#8170#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/MainApp.java">
+        <entry file="file://$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-canvas.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="247">
+              <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="149" column="65" selection-start-line="149" selection-start-column="65" selection-end-line="149" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#signUp#0;class#HomeController#0" />
+                <element signature="method#validateEqual#0;class#HomeController#0" />
+                <element signature="method#saveAlert#0;class#HomeController#0" />
+                <element signature="method#alertUserForFailed#0;class#HomeController#0" />
+                <element signature="method#validate#0;class#HomeController#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwbc/build.gradle">
+        <entry file="file://$PROJECT_DIR$/jwbclient/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="74" />
+            <state relative-caret-position="388">
+              <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwbs/build.gradle">
+        <entry file="file://$PROJECT_DIR$/jwbserver/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="15">
+              <caret line="1" column="53" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jwb-api/build.gradle">
+        <entry file="file://$PROJECT_DIR$/jwbserver/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="-413" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="2753" column="24" selection-start-line="2753" selection-start-column="21" selection-end-line="2753" selection-end-column="24" />
+              <folding>
+                <element signature="e#24832#24833#0" expanded="true" />
+                <element signature="e#24872#24873#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/service/users/UserConnectionService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBCController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/services/users/UserConnectionServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -187,36 +359,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mouse</find>
-      <find>grap</find>
-      <find>rect.</find>
-      <find>rect</find>
-      <find>group_for_rectangles</find>
-      <find>obs</find>
-      <find>add</find>
-      <find>getResource</find>
-      <find>stage</find>
-      <find>title</find>
-      <find>toggleDrawGroup</find>
-      <find>edit</find>
-      <find>Path2D</find>
-      <find>white</find>
-      <find>par</find>
-      <find>canvasController</find>
-      <find>equa</find>
-      <find>save</find>
-      <find>DDD</find>
-      <find>pare</find>
       <find>can</find>
-      <find>canva</find>
-      <find>equals</find>
-      <find>comboBoxLineThickens</find>
-      <find>canvas</find>
-      <find>toggleManager</find>
-      <find>Spli</find>
-      <find>tree</find>
-      <find>saveBu</find>
-      <find>styl</find>
+      <find>-fx-background-color</find>
+      <find>css</find>
+      <find>HBo</find>
+      <find>first</find>
+      <find>firstN</find>
+      <find>stackPane</find>
+      <find>logi</find>
+      <find>user</find>
+      <find>clientH</find>
+      <find>registerClient</find>
+      <find>Sys</find>
+      <find>email.getText()</find>
+      <find>kuk</find>
+      <find>firstName</find>
+      <find>name</find>
+      <find>:</find>
+      <find>updateClient</find>
+      <find>join</find>
+      <find>PLat</find>
+      <find>close</find>
+      <find>login</find>
+      <find>save</find>
+      <find>paint</find>
+      <find>plat</find>
+      <find>stageManager</find>
+      <find>##################</find>
+      <find>undo</find>
+      <find>init</find>
+      <find>bla</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -224,10 +396,14 @@
       <replace>8</replace>
       <replace>rectangle</replace>
       <replace>rectangle.</replace>
+      <replace>DrawOperation</replace>
+      <replace>User</replace>
+      <replace>JWBDraw</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/jwb-client</dir>
       <dir>$PROJECT_DIR$/jwb-client/src</dir>
+      <dir>$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/model</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -236,63 +412,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/drawable/Drawer.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/drawable/JWBPainter.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/drawable/PaintOperation.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/drawable/EditJWBDrawOperation.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/drawable/JWBEditOperation.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/drawable/LineJWBDrawOperation.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/drawable/LineOperation.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/drawable/JWBDrawOperation.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/drawable/DrawOperation.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/JWBPainter.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/JWBDraw.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCLine.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCOval.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCEraser.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleIAbstract.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCEdit.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/EditOperation.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc-canvas.fxml" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/MainApp.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc-style.css" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCRectangle.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBText.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleManager.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/CanvasController.java" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc.fxml" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/JWBCController.java" />
-        <option value="$PROJECT_DIR$/jwbcs/src/main/java/HelloGradleController.java" />
-        <option value="$PROJECT_DIR$/jwbcs/build.gradle" />
-        <option value="$PROJECT_DIR$/jwbs/test/hello/App.java" />
-        <option value="$PROJECT_DIR$/jwbs/test/hello/AppTest.java" />
-        <option value="$PROJECT_DIR$/jwbs/test/main/java/hello/AppTest.java" />
-        <option value="$PROJECT_DIR$/jwbs/src/test/java/hello/AppTest.java" />
-        <option value="$PROJECT_DIR$/jwbs/src/main/java/hello/App.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/jwb-api/src/main/java/LoginService.java" />
-        <option value="$PROJECT_DIR$/jwb-api/src/main/java/exceptions/JWBLoginException.java" />
-        <option value="$PROJECT_DIR$/jwbs/src/main/java/hello/HelloGradleController.java" />
-        <option value="$PROJECT_DIR$/jwbs/build.gradle" />
-        <option value="$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/LoginService.java" />
-        <option value="$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/UserData.java" />
-        <option value="$PROJECT_DIR$/jwbs/src/main/java/hello/JWBServeImpl.java" />
-        <option value="$PROJECT_DIR$/jwbs/src/main/java/hello/UserLoginImpl.java" />
-        <option value="$PROJECT_DIR$/jwbs/src/main/java/hello/JWBLoginServerImpl.java" />
-        <option value="$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/JWBLoginService.java" />
-        <option value="$PROJECT_DIR$/jwbs/src/main/java/hello/JWBServerMain.java" />
-        <option value="$PROJECT_DIR$/jwbc/build.gradle" />
-        <option value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/TestRMIInitial.java" />
-        <option value="$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/JWBUserDataI.java" />
-        <option value="$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/JWBUserData.java" />
-        <option value="$PROJECT_DIR$/jwb-api/build.gradle" />
+        <option value="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/dao/ServerGroupBoardRepository.java" />
+        <option value="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/ServerApplication.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/service/ClientFileManager.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/CanvasListener.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/ChatCoontroller.java" />
+        <option value="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/Chat.java" />
+        <option value="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/Server.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/home.fxml" />
+        <option value="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/dao/UserRepositoryAPI.java" />
+        <option value="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/model/UserAPI.java" />
+        <option value="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/model/User.java" />
+        <option value="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/dao/UserRepository.java" />
+        <option value="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/model/GroupBoard.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/utils/PairUserSentence.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-chat.fxml" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-canvas.fxml" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/conversation/GroupMessages.java" />
+        <option value="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/service/group/GroupConnectionService.java" />
+        <option value="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/CanvasListenerInterface.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/ChatController.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/resources/bundle.properties" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/AppJavaConfig.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/SpringFXMLLoader.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/JWBApplication.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/StageManager.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/jwbclient/build.gradle" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-style.css" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc.fxml" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBAlert.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/FXMLViews.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/ClientListener.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCOval.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCRectangle.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleI.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleIAbstract.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/LineOperation.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/OvalDrawOperation.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/RectangleDrawOperation.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/conversation/GroupConversation.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/utils/PairUserMessage.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/EditOperation.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/JWBDraw.java" />
+        <option value="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/services/groups/GroupConnectionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleManager.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/utils/Pair.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBCController.java" />
+        <option value="$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/service/users/UserConnectionService.java" />
+        <option value="$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/services/users/UserConnectionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/CanvasController.java" />
+        <option value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/HomeController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1419" />
+    <option name="width" value="1440" />
     <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -301,7 +477,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,26 +487,164 @@
             <path>
               <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
               <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="jwb-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
               <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="jwbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
               <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="jwbs" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwb" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwb" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="conversation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwb" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="paint_operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwb" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="toggle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwb" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jwb" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbclient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbserver" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbserver" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbserver" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jwb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jwb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="jwbserver" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -340,45 +653,54 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jwbs/test" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jwbapi" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2783019" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jwbclient" />
+      <recent name="$PROJECT_DIR$/jwbserver" />
       <recent name="$PROJECT_DIR$/jwbs/src/test" />
       <recent name="$PROJECT_DIR$/jwbs/src" />
       <recent name="$PROJECT_DIR$/jwbcs" />
-      <recent name="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc" />
-      <recent name="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="org.gafner.jwbc" />
-      <recent name="main.java.hello" />
+      <recent name="com.gafner.jwb.server.model" />
+      <recent name="com.gafner.jwb.services" />
+      <recent name="com.gafner.jwb.model" />
+      <recent name="com.gafner.jwb.service" />
+      <recent name="com.gafner.jwb.service.users" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jwbs/test" />
-      <recent name="$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/images" />
-      <recent name="$PROJECT_DIR$/jmods" />
+      <recent name="$PROJECT_DIR$/jwbapi" />
+      <recent name="$PROJECT_DIR$/jwbs/src/main/reources" />
+      <recent name="$PROJECT_DIR$/jwbs/src/main/java/com/gafner/jwb" />
+      <recent name="$PROJECT_DIR$/jwbs/src/main/java/com/gafner/jwb/service" />
+      <recent name="$PROJECT_DIR$/jwb-api/src/main/java/com/gafner/jwb/model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gafner.jwb.api.paint_operation" />
+      <recent name="com.gafner.jwb.service.user" />
+      <recent name="com.gafner.jwb" />
       <recent name="org.gafner.jwbc.drawable" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gafner.jwb.api.conversation" />
+      <recent name="com.gafner.jwb.api.paint_operation" />
       <recent name="jwb_api" />
       <recent name="exceptions" />
       <recent name="org.gafner.jwbc.toggle" />
-      <recent name="org.gafner.jwbc" />
-      <recent name="org.gafner" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,80 +719,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.23647146" />
+    <option name="contentProportion" value="0.14455152" />
   </component>
-  <component name="RunManager" selected="Spring Boot.TestRMIInitial">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.gafner.jwbc.MainApp" />
-      <module name="jwbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.gafner.jwbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.helloGradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.AppTest.helloGradle&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":jwbs:cleanTest" />
-            <option value=":jwbs:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="jwb [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootJar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="jwb:jwbc [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/jwbc" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="classes" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.jwb:jwbclient [run]">
     <configuration name="jwb:jwbc [jlink]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -509,51 +760,151 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="App (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="jwbs" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.JWBServerMain" />
+    <configuration name="jwb:jwbclient [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jwbclient" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jwb:jwbclient [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jwbclient" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jwb:jwbserver [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jwbserver" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="jwb:jwbserver [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jwbserver" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JWBApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.gafner-jwbclient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gafner.jwb.JWBApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="jwbs" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.hello.App" />
+    <configuration name="JWBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jwbclient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jwb.JWBApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRMIInitial" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="jwbc" />
+    <configuration name="JWBApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="com.gafner-jwbclient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.gafner.jwbc.*" />
+          <option name="PATTERN" value="com.gafner.jwb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.gafner.jwbc.TestRMIInitial" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gafner.jwb.JWBApplication" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-11.0.2/lib --add-modules javafx.controls --add-exports=javafx.graphics/com.sun.javafx.util=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.scene=ALL-UNNAMED --add-exports=javafx.base/com.sun.javafx.reflect=ALL-UNNAMED --add-exports=javafx.base/com.sun.javafx.beans=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.glass.utils=ALL-UNNAMED --add-exports=javafx.graphics/com.sun.javafx.tk=ALL-UNNAMED -Djava.rmi.server.useCodebaseOnly=false -Djava.security.policy=client.policy" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.gafner-jwbserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gafner.jwb.server.ServerApplication" />
+      <option name="VM_PARAMETERS" value="-Djava.rmi.server.useCodebaseOnly=false -Djava.security.policy=server.policy" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="com.gafner-jwbserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gafner.jwb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gafner.jwb.ServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainApp" />
       <item itemvalue="Gradle.jwb:jwbc [jlink]" />
       <item itemvalue="Gradle.jwb:jwbc [run]" />
-      <item itemvalue="Gradle.jwb:jwbc [classes]" />
-      <item itemvalue="Gradle.jwb [bootJar]" />
-      <item itemvalue="Gradle.AppTest.helloGradle" />
-      <item itemvalue="Spring Boot.App" />
-      <item itemvalue="Spring Boot.App (1)" />
-      <item itemvalue="Spring Boot.TestRMIInitial" />
+      <item itemvalue="Gradle.jwb:jwbclient [bootRun]" />
+      <item itemvalue="Gradle.jwb:jwbclient [run]" />
+      <item itemvalue="Gradle.jwb:jwbserver [bootRun]" />
+      <item itemvalue="Gradle.jwb:jwbserver [run]" />
+      <item itemvalue="Spring Boot.ServerApplication" />
+      <item itemvalue="Spring Boot.JWBApplication" />
+      <item itemvalue="Spring Boot.JWBApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.TestRMIInitial" />
-        <item itemvalue="Gradle.AppTest.helloGradle" />
-        <item itemvalue="Gradle.jwb [bootJar]" />
-        <item itemvalue="Gradle.jwb:jwbc [classes]" />
-        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Gradle.jwb:jwbclient [run]" />
+        <item itemvalue="Gradle.jwb:jwbserver [run]" />
+        <item itemvalue="Spring Boot.JWBApplication" />
+        <item itemvalue="Gradle.jwb:jwbserver [bootRun]" />
+        <item itemvalue="Gradle.jwb:jwbclient [bootRun]" />
       </list>
     </recent_temporary>
   </component>
@@ -589,6 +940,13 @@
       <workItem from="1558163641360" duration="11076000" />
       <workItem from="1558547593337" duration="1760000" />
       <workItem from="1558588889712" duration="570000" />
+      <workItem from="1558617131689" duration="1494000" />
+      <workItem from="1558618671876" duration="10584000" />
+      <workItem from="1558681116374" duration="3926000" />
+      <workItem from="1558686143702" duration="27905000" />
+      <workItem from="1558762869185" duration="36319000" />
+      <workItem from="1558963388895" duration="10296000" />
+      <workItem from="1558976762716" duration="12545000" />
     </task>
     <servers />
   </component>
@@ -601,7 +959,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213347000" />
+    <option name="totallyTimeSpent" value="316416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,10 +971,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1419" height="816" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27668846" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16237482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -627,28 +985,29 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.2810271" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34236804" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49891067" weight="0.2510699" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49852216" weight="0.51640517" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32952926" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891067" weight="0.7303852" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891067" weight="0.30242512" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50108933" side_tool="true" weight="0.49072754" />
-      <window_info anchor="bottom" id="Build" order="11" weight="0.3281027" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50147784" side_tool="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.2767475" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32952926" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.14835949" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.34664765" />
+      <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.32952926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Google Cloud Storage" order="5" show_stripe_button="false" />
-      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.4989899" weight="0.2607117" />
+      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.4989899" visible="true" weight="0.16809729" />
       <window_info anchor="right" id="Database" order="7" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -704,45 +1063,47 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleManager.java</url>
-          <line>49</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/JWBCController.java</url>
-          <line>154</line>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/JWBDraw.java</url>
+          <line>45</line>
           <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/JWBCController.java</url>
-          <line>155</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleManager.java</url>
-          <line>32</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/CanvasController.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/CanvasController.java</url>
-          <line>98</line>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/CanvasController.java</url>
+          <line>142</line>
           <properties />
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBCController.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBCController.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/JWBDraw.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/CanvasController.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/HomeController.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -752,6 +1113,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>email.getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>loader.getController()</expression-string>
         <language-id>JAVA</language-id>
@@ -792,450 +1158,439 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>getClass().getClassLoader().getResourceAsStream(&quot;scene.fxml&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCLine.java">
+    <entry file="file://$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/CanvasListenerInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCOval.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/11.0.2/2b7bb98d32266093bd49acd8778bedb55a326c20/javafx-fxml-11.0.2-sources.jar!/javafx/fxml/Initializable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="212">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/EditOperation.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.6.RELEASE/aa74700198d24e1ed8b3c8ad663ad50733658ac6/spring-core-5.1.6.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="218">
+          <caret line="243" selection-start-line="243" selection-end-line="243" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/scene/layout/Pane.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.6.RELEASE/647293fbac4e4a0805d5440151ebb79cd0bf426b/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="100" column="28" lean-forward="true" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+          <caret line="362" selection-start-line="362" selection-end-line="362" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.6.RELEASE/edd8534e9e343663a18560cc465c49f9d93ca097/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4491">
+          <caret line="376" column="22" selection-start-line="376" selection-start-column="22" selection-end-line="376" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/resources/bundle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/AppJavaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.6.RELEASE/647293fbac4e4a0805d5440151ebb79cd0bf426b/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/remoting/rmi/RmiProxyFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/StageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-chat.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/11.0.2/1535a8b57f01a712405a739a0d69e09ab99dbb6b/javafx-controls-11.0.2-sources.jar!/javafx/scene/control/Labeled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="783" column="28" selection-start-line="783" selection-start-column="28" selection-end-line="783" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/resources/fxml/home.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
-            <element signature="e#5686#5687#0" expanded="true" />
-            <element signature="e#5728#5729#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/scene/Parent.java">
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/FXMLViews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        <state relative-caret-position="165">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/ClientListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
-            <element signature="e#28380#28381#0" expanded="true" />
-            <element signature="e#28411#28412#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#169#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCEdit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCEraser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCOval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleIAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/service/ClientFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/LineOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="e#338#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/OvalDrawOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="e#338#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/RectangleDrawOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding>
+            <element signature="e#391#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/EditOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+          <folding>
+            <element signature="e#427#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/services/groups/GroupConnectionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#519#582#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/scene/layout/Region.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16230">
-          <caret line="1198" column="22" selection-start-line="1198" selection-start-column="22" selection-end-line="1198" selection-end-column="22" />
+        <state relative-caret-position="162">
+          <caret line="1294" column="27" selection-start-line="1294" selection-start-column="27" selection-end-line="1294" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/scene/layout/Border.java">
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="234" column="11" selection-start-line="234" selection-start-column="11" selection-end-line="234" selection-end-column="11" />
-          <folding>
-            <element signature="e#11431#11432#0" expanded="true" />
-            <element signature="e#11466#11467#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="53" column="197" selection-start-line="53" selection-start-column="197" selection-end-line="53" selection-end-column="197" />
         </state>
       </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/11.0.2/1535a8b57f01a712405a739a0d69e09ab99dbb6b/javafx-controls-11.0.2-sources.jar!/javafx/scene/control/ToggleButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/scene/image/ImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="192" column="11" selection-start-line="192" selection-start-column="11" selection-end-line="192" selection-end-column="11" />
-          <folding>
-            <element signature="e#6758#6759#0" expanded="true" />
-            <element signature="e#6794#6795#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/11.0.2/1535a8b57f01a712405a739a0d69e09ab99dbb6b/javafx-controls-11.0.2-sources.jar!/javafx/scene/control/TreeView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="473" column="22" selection-start-line="473" selection-start-column="22" selection-end-line="473" selection-end-column="22" />
-          <folding>
-            <element signature="e#21540#21541#0" expanded="true" />
-            <element signature="e#21581#21582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17655">
-          <caret line="1217" column="18" selection-start-line="1217" selection-start-column="18" selection-end-line="1217" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/scene/layout/StackPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54060">
-          <caret line="3692" column="31" selection-start-line="3692" selection-start-column="31" selection-end-line="3692" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/11.0.2/1535a8b57f01a712405a739a0d69e09ab99dbb6b/javafx-controls-11.0.2-sources.jar!/javafx/scene/control/TreeItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6405">
-          <caret line="485" column="22" selection-start-line="485" selection-start-column="22" selection-end-line="485" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc-canvas.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/scene/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="2618" selection-start-line="2618" selection-end-line="2618" />
-          <folding>
-            <element signature="e#38363#38364#0" expanded="true" />
-            <element signature="e#38422#38423#0" expanded="true" />
-            <element signature="e#42670#42677#0" expanded="true" />
-            <element signature="e#50443#50444#0" expanded="true" />
-            <element signature="e#50494#50495#0" expanded="true" />
-            <element signature="e#236893#236894#0" expanded="true" />
-            <element signature="e#236940#236941#0" expanded="true" />
-            <element signature="e#237864#237865#0" expanded="true" />
-            <element signature="e#237931#237932#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/scene/canvas/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="e#4034#4035#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleIAbstract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCEdit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/11.0.2/2b7bb98d32266093bd49acd8778bedb55a326c20/javafx-fxml-11.0.2-sources.jar!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="1670" selection-start-line="1670" selection-end-line="1670" />
-          <folding>
-            <element signature="e#68775#68776#0" expanded="true" />
-            <element signature="e#86569#86570#0" expanded="true" />
-            <element signature="e#86601#86602#0" expanded="true" />
-            <element signature="e#87625#87626#0" expanded="true" />
-            <element signature="e#87661#87662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/11.0.2/1535a8b57f01a712405a739a0d69e09ab99dbb6b/javafx-controls-11.0.2-sources.jar!/javafx/scene/control/MenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="465" selection-start-line="465" selection-end-line="465" />
-          <folding>
-            <element signature="e#16836#16837#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/11.0.2/c082cdf645f9833408dcd960bf68344c9384f569/javafx-base-11.0.2-sources.jar!/javafx/event/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/scene/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="2595" selection-start-line="2595" selection-end-line="2595" />
-          <folding>
-            <element signature="e#96929#96930#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/CanvasController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="74" column="17" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/JWBDraw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/paint_operation/DrawOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/11.0.2/15eadef01f327a851a6d3af0ac89d56292076b13/javafx-graphics-11.0.2-sources.jar!/javafx/scene/canvas/GraphicsContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5985">
-          <caret line="459" column="19" selection-start-line="459" selection-start-column="19" selection-end-line="459" selection-end-column="19" />
-          <folding>
-            <element signature="e#39176#39177#0" expanded="true" />
-            <element signature="e#39224#39225#0" expanded="true" />
-            <element signature="e#50026#50027#0" expanded="true" />
-            <element signature="e#50064#50065#0" expanded="true" />
-            <element signature="e#95004#95005#0" expanded="true" />
-            <element signature="e#95051#95052#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCToggleManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="86" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbcs/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/jwbcs/src/main/java/HelloGradleController.java" />
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBCRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="91" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/toggle/JWBText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding>
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbs/test/hello/HelloGradleController.java" />
-    <entry file="file://$PROJECT_DIR$/jwb-api/src/main/java/exceptions/JWBLoginException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbs/src/main/java/hello/JWBLoginServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbs/src/test/java/hello/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/TestRMIInitial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/JWBUserData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="29" selection-start-line="98" selection-start-column="3" selection-end-line="99" selection-end-column="29" />
-          <folding>
-            <marker date="1556990346302" expanded="true" signature="2204:2250" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/jwbc.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="165" selection-start-line="21" selection-start-column="135" selection-end-line="21" selection-end-column="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/resources/org/gafner/jwbc/palette.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwb-api/src/main/java/jwb_api/JWBLoginServiceI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbs/src/main/java/hello/JWBServerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/utils/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/JWBCController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="201" column="19" selection-start-line="201" selection-start-column="19" selection-end-line="201" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initComboLineWidth#0;class#JWBCController#0" />
-            <element signature="method#zoomIn#0;class#JWBCController#0" />
-            <element signature="method#zoomOut#0;class#JWBCController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/src/main/java/org/gafner/jwbc/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbc/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwbs/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwb-api/build.gradle">
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/conversation/GroupConversation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/DrawOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/ColorCombineSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/toggle/JWBCToggleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/utils/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/utils/PairUserMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/JWBApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/config/SpringFXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/paint_operation/JWBDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/JWBCController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbserver/src/main/java/com/gafner/jwb/server/services/users/UserConnectionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbapi/src/main/java/com/gafner/jwb/api/service/users/UserConnectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/resources/fxml/jwbc-canvas.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/CanvasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="133" column="82" lean-forward="true" selection-start-line="133" selection-start-column="82" selection-end-line="133" selection-end-column="82" />
+          <folding>
+            <element signature="method#redo#0;class#CanvasController#0" />
+            <element signature="method#joinGroup#0;class#CanvasController#0" />
+            <element signature="method#loadFromDB#0;class#CanvasController#0" />
+            <element signature="method#loadConversationFromDB#0;class#CanvasController#0" />
+            <element signature="method#loadPaintFromDB#0;class#CanvasController#0" />
+            <element signature="e#8136#8137#0" expanded="true" />
+            <element signature="e#8169#8170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="2753" column="24" selection-start-line="2753" selection-start-column="21" selection-end-line="2753" selection-end-column="24" />
+          <folding>
+            <element signature="e#24832#24833#0" expanded="true" />
+            <element signature="e#24872#24873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/src/main/java/com/gafner/jwb/api/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="149" column="65" selection-start-line="149" selection-start-column="65" selection-end-line="149" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#signUp#0;class#HomeController#0" />
+            <element signature="method#validateEqual#0;class#HomeController#0" />
+            <element signature="method#saveAlert#0;class#HomeController#0" />
+            <element signature="method#alertUserForFailed#0;class#HomeController#0" />
+            <element signature="method#validate#0;class#HomeController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbclient/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbserver/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwbserver/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413" />
       </provider>
     </entry>
   </component>
@@ -1296,7 +1651,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>jwbs|jwbs|jwb</last-edited>
+          <last-edited>com.gafner-jwbclient|jwbclient|jwb</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
