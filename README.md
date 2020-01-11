@@ -1,7 +1,7 @@
 
 ## Witheboard - Paint application
 
-#### What will you fin here: 
+#### What will you find here: 
 A JavaFX application to share drawns. You can drawn with free style, shapes and more on a with board and share to other clients.
 technologies used:
      Gradle 
